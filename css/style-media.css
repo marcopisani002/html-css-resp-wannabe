@@ -23,3 +23,29 @@
     
 }
 
+@media screen and (max-width:480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lessons .col,
+    .steps .col,
+    .why-us .col{
+        width: calc(100% - 40px);
+        padding-bottom: 3rem;
+
+    }
+    .why-us{
+        background-color: black;
+        margin: unset;
+        padding: 3rem 0;
+    }
+
+    .steps{
+        margin: unset;
+    }
+    
+}
+
+
+
